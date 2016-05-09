@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    android:id="@+id/intro"
+    tools:context="com.example.vibhu.vethospital.MainActivity">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Book an Appointment"
+    android:textColor="#3bba1e"
+    android:onClick="bookAppointment"
+    android:layout_alignParentBottom="false"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="24dp"/>
+
+</RelativeLayout>
