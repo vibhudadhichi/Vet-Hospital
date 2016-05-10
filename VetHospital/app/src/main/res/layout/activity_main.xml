@@ -3,18 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/logo"
     android:id="@+id/intro"
     tools:context="com.example.vibhu.vethospital.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo1"/>
+
 <Button
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Book an Appointment"
-    android:textColor="#3bba1e"
+    android:textColor="#050505"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-smallcaps"
     android:onClick="bookAppointment"
-    android:layout_alignParentBottom="false"
-    android:layout_centerVertical="true"
-    android:layout_centerHorizontal="true"
-    android:layout_marginBottom="24dp"/>
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="40dp"
+    />
 
 </RelativeLayout>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -23,7 +26,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:hint="John Doe" />
+        android:hint="John Doe"
+        android:inputType="textCapWords"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -42,7 +46,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:hint="German Shepherd" />
+        android:hint="German Shepherd"
+        android:inputType="textCapWords"/>
 
     <TextView
         android:id="@+id/textView21"
@@ -61,7 +66,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:hint="Male | Female" />
+        android:hint="Male | Female"
+        android:inputType="textCapWords"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -80,7 +86,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:hint="2 Years 3 Months" />
+        android:hint="2 Years 3 Months"
+        android:inputType="textCapWords"/>
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -98,16 +105,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:hint="12th November @ 12:00 pm" />
+        android:inputType="datetime"
+        android:hint="12th November @ 12:00 pm"
+        />
 
     <Button
         android:id="@+id/button"
         android:layout_marginTop="24dp"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Book"
-        android:textColor="#3bba1e"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#050505"
         android:onClick="thanks"/>
 
 </LinearLayout>
+    </ScrollView>
