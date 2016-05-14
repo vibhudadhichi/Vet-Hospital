@@ -88,6 +88,30 @@
         android:layout_marginLeft="10dp"
         android:hint="2 Years 3 Months"
         android:inputType="textCapWords"/>
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="24dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="Booking Date" />
+
+    <EditText android:id="@+id/name41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:focusable="false"
+        android:hint="12/11/2016"
+        android:inputType="time"
+        android:onClick="showDatePickerDialog"
+        />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -99,14 +123,16 @@
         android:textAllCaps="true"
         android:textStyle="bold"
         android:textSize="16dp"
-        android:text="Booking Date And Time" />
+        android:text="Booking Time" />
 
     <EditText android:id="@+id/name4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:inputType="datetime"
-        android:hint="12th November @ 12:00 pm"
+        android:focusable="false"
+        android:hint="12:00 pm"
+        android:inputType="time"
+        android:onClick="showTimePickerDialog"
         />
 
     <Button
